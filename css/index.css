@@ -1,0 +1,405 @@
+/*清除默认样式*/
+body, div, ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, p, table, tbody, thead, tfoot, tr, th, td, caption, a, input, form, select, option, label, textarea, img, span, i, b, em, strong, sub, sup, u {
+    margin: 0;
+    padding: 0;
+    font-family: "\5FAE\8F6F\96C5\9ED1", Helvetica, sans-serif;
+    //font-size: 12 px;
+    //-webkit-user-select: none;
+}
+
+i, em {
+    font-style: normal;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+img, input {
+    border: none;
+    vertical-align: middle;
+    outline: none;
+}
+
+.clear {
+    clear: both;
+    height: 0;
+    line-height: 0;
+    font-size: 0;
+}
+
+a, a:hover, a:visited, a:target {
+    text-decoration: none;
+}
+
+a {
+    cursor: pointer;
+    color: #424242;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+.w1000{
+    width: 1000px;
+    margin: 0 auto;
+}
+/*--------------------------------*/
+.nav{
+    width: 100%;
+    height: 60px;
+}
+.nav img{
+    margin-top: 10px;
+    display: inline-block;
+}
+.navL{
+    float: right;
+}
+.navL li{
+    position: relative;
+    margin: 0 10px;
+    height: 58px;
+    width: 80px;
+    line-height: 60px;
+    float: left;
+    font-size: 16px;
+    text-align: center;
+}
+.navL li.one{
+    border-bottom: 2px solid blue;
+}
+.navL li:hover{
+    cursor: pointer;
+    border-bottom: 2px solid blue;
+}
+.navL li:nth-child(5){
+    margin-left: 20px;
+}
+.navL li:nth-child(3) p{
+    position: absolute;
+    top: 55px;
+    left: 5px;
+    border-top: none;
+    line-height: 40px;
+    height: 40px;
+    width: 70px;
+    background: #fff;
+    z-index: 2;
+    display: none;
+    box-shadow: 2px 2px 2px #ccc;
+}
+.navL li:nth-child(3):hover p{
+    display: block;
+}
+/*nav end*/
+
+.pic img{
+    width: 100%;
+    height: 100%;
+}
+.tanSuo{
+    position: relative;
+    height: 570px;
+    padding-top: 80px;
+}
+.titleF{
+    margin-bottom: 55px;
+    text-align: center;
+    font-size: 40px;
+}
+.tanSuo .tanSuoContent li{
+    position: relative;
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+.tanSuo .tanSuoContent li img{
+    width: 170px;
+    height: 170px;
+}
+.tanSuo .tanSuoContent li .p1{
+    margin:20px 10px;
+    font-size: 20px;
+}
+.tanSuo .tanSuoContent li .p2{
+    margin: 0 25px;
+    font-size: 16px;
+    color: #757f85;
+    text-align: left;
+}
+.check{
+    padding-top: 80px;
+    height: 680px;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+.check .titleF{
+    margin-bottom: 40px;
+}
+.check .p3{
+    color: #757f85;
+    font-size: 16px;
+    margin-bottom: 73px;
+}
+#div1 .con{
+    display: none;
+}
+#div1 .con.one{
+    display: block;
+}
+/*first end*/
+.about{
+    text-align: center;
+    padding: 50px 0;
+    background-color: #1a7fcf;
+}
+.aboutUs .aboutTitle{
+    width: 100%;
+    margin: 68px auto 0 auto;
+    text-align: center;
+    color: #333;
+    font-size: 40px;
+}
+.aboutUs .aboutContent{
+    width: 100%;
+    margin: 35px auto 0 auto;
+    color: #333;
+    line-height: 25px;
+}
+.aboutUs .lastAbout{
+    margin-bottom: 60px;
+}
+/*two end*/
+.picture{
+    min-width: 1000px;
+    background: #F4F5F6;;
+}
+.productTop{
+    width: 100%;
+    height: 396px;
+}
+.productTopCon{
+    margin: 0 auto;
+    width: 930px;
+}
+.topLeft{
+    margin-top: 95px;
+    float: left;
+}
+.topRight{
+    float: right;
+}
+.topTitle{
+    font-size: 40px;
+}
+.topContent{
+    margin: 10px 0;
+}
+
+
+/*product end*/
+
+.color{
+    color: #1a7fcf;
+    cursor: pointer;
+}
+
+.joinUs{
+    margin-bottom: 40px;
+}
+.joinUsBig{
+    min-width: 1000px;
+    width: 100%;
+    height: 400px;
+    background: url("../img/joinus.jpg")no-repeat;
+    background-position: -290px;
+}
+.resume span{
+    margin-left: 14px;
+}
+.resumePost{
+    color: #1a7fcf;
+    margin-top: 40px;
+    height: 50px;
+    line-height: 50px;
+    background: #F5F5F5;
+}
+.resumeTitle{
+    color: #333;
+    width: 100%;
+    margin: 30px auto;
+}
+.resume ul li{
+    margin-left: 60px;
+    line-height: 30px;
+}
+.resume{
+    margin-bottom: 60px;
+}
+/*three end*/
+
+.fourTitle{
+    text-align: left;
+    width: 100%;
+    margin-top: 40px;
+    font-size: 40px;
+    color: #333;
+}
+.keFu{
+    width: 100%;
+    margin: 30px auto 0 auto;
+    text-align: left;
+    font-size: 30px;
+    color: #333;
+}
+.site{
+    width: 100%;
+    margin-top: 10px;
+    text-align: left;
+    color: #333;
+}
+.twoCode{
+    margin-bottom: 40px;
+}
+.codeTitle{
+    text-align: left;
+    margin: 40px 0 20px 0;
+    font-size: 30px;
+    color: #333;
+}
+.codeContent{
+    width: 220px;
+    height: 220px;
+}
+/*four end*/
+
+
+.footer{
+    width: 100%;
+    background-color: #333333;
+}
+.footer .footerB{
+    text-align: center;
+    padding-top: 55px;
+    padding-bottom: 20px;
+    color: #f1f1f1;
+}
+.footer .footerB p{
+    margin: 8px 0;
+    font-size: 12px;
+}
+.telephone{
+    color: white;
+    font-size: 40px;
+    margin-bottom: 45px;
+}
+.footer .footerB .code{
+    margin-left: 20px;
+}
+.footer .footerB .p4{
+    margin-bottom: 60px;
+}
+/*响应式开发*/
+.navTwo{
+    display: none;
+    position: relative;
+    width: 100%;
+    height: 60px;
+}
+.navTwo .logo{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.navTwo .logo img{
+    margin: 15px auto;
+    width: 80px;
+    height: 31px;
+
+}
+.navTwo .menu{
+    position: absolute;
+    display: block;
+    width: 30px;
+    left: 20px;
+    top: 15px;
+    cursor: pointer;
+}
+.navTwo .phoneNav{
+    position: absolute;
+    margin-left: 0;
+    margin-top: -425px;
+    background: #1a7fcf;
+    color: white;
+    opacity: 0.9;
+    z-index: 2;
+    width: 100%;
+    text-align: center;
+}
+.navTwo .phoneNav li{
+    width: 100%;
+    line-height: 60px;
+    height: 59px;
+    border-bottom: 1px solid #a6bdd0;
+    cursor: pointer;
+}
+@media all and (max-width: 500px) {
+    .tanSuo{
+        height: 600px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .navFir {
+        display: none;
+    }
+    .navTwo {
+        display: block;
+    }
+    .titleF{
+        font-size: 1.3em;
+    }
+    .con .tanSuo .tanSuoContent li {
+        width: 100%;
+        text-align: left;
+        padding: 10px 0;
+    }
+    .con .tanSuo .tanSuoContent li img{
+        width: 30%;
+        height: 30%;
+    }
+    .con .tanSuo .tanSuoContent li .p1{
+        position: absolute;
+        margin-top: -33%;
+        margin-left:45%;
+    }
+    .con .tanSuo .tanSuoContent li .p2{
+        position: absolute;
+        font-size: 14px;
+        width: 50%;
+        margin-top: -23%;
+        margin-left:45%;
+    }
+    .con .check{
+        padding-top: 30px;
+        height: 300px;
+    }
+    .con div {
+        margin: 10px 0;
+        width: 100%;
+    }
+    .con div img, .con div a, .con div p {
+        width: 100%;
+    }
+    .footer div {
+        margin: 10px 0;
+        width: 100%;
+    }
+    .footer div p,.footer div ,.footer div a {
+        width: 100%;
+    }
+    .header {
+        width: 100%;
+    }
+}
